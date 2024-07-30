@@ -16,11 +16,13 @@ body {
 .right {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 p {
     font-weight: bold;
     margin: 0 35px 0;
+    text-align: center;
 }
 
 p:first-child {
@@ -42,7 +44,8 @@ fieldset {
 
 legend {
     font-size: larger;
-    margin: 0 35px 0;
+    margin: 0 35px 10px;
+    padding: 0;
 }
 
 form div {
@@ -74,6 +77,10 @@ input:invalid {
 
 form {
     margin-bottom: 35px;
+}
+
+button {
+    flex-basis: auto;
 }
 
 
