@@ -56,4 +56,17 @@ fieldset div:nth-child(even) {
 
 input {
     width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid #E5E7EB
 }
+
+input:focus {
+    outline-color: #5E9ED6;
+}
+
+input:invalid {
+    border: 2px solid red
+}
+
+

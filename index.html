@@ -39,11 +39,13 @@
                 </div>
                 <div>
                     <label for="pwd">PASSWORD</label>
-                    <input type="password" name="pwd" id="pwd">
+                    <input type="password" name="pwd" id="pwd" pattern=""^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                    ">
                 </div>
                 <div>
                     <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm-pwd" id="confirm-pwd">
+                    <input type="password" name="confirm-pwd" id="confirm-pwd" pattern=""^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                    ">
                 </div>
             </fieldset>
         </form>
