@@ -16,11 +16,11 @@ body {
 .right {
     display: flex;
     flex-direction: column;
-    margin: 0 35px 0;
 }
 
 p {
     font-weight: bold;
+    margin: 0 35px 0;
 }
 
 p:first-child {
@@ -29,7 +29,7 @@ p:first-child {
 }
 
 p:nth-child(2) {
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 fieldset {
@@ -37,16 +37,18 @@ fieldset {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 0 2px 2px lightgray;
 }
 
 legend {
     font-size: larger;
+    margin: 0 35px 0;
 }
 
 form div {
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    margin: 0 35px 25px;
     font-size: smaller;
 }
 
@@ -68,6 +70,10 @@ input:focus {
 
 input:invalid {
     border: 2px solid red
+}
+
+form {
+    margin-bottom: 35px;
 }
 
 
