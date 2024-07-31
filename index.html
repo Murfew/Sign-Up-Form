@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-up Form</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="left">
-        <img src="./images/halie-west-25xggax4bSA-unsplash.jpg" alt="">
-        <div class="backsplash">
-            <img src="./images/odin-lined.png" alt="">
-            <span>ODIN</span>
-        </div>
-        <span>Image by <a href="https://unsplash.com/@haliewestphoto">Haile West</a> on <a href="https://unsplash.com/">Unsplash</a></span>
+      <img src="./images/halie-west-25xggax4bSA-unsplash.jpg" alt="" />
+      <div class="backsplash">
+        <img src="./images/odin-lined.png" alt="" />
+        <span>ODIN</span>
+      </div>
+      <span
+        >Image by
+        <a href="https://unsplash.com/@haliewestphoto">Haile West</a> on
+        <a href="https://unsplash.com/">Unsplash</a></span
+      >
     </div>
     <div class="right">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
-        <p>You <i>know</i> you want to.</p>
-        <form action="" method="post" id="sign-up">
-            <fieldset>
-                <legend>Let's do this!</legend>
-                <div>
-                    <label for="fname">FIRST NAME</label>
-                    <input type="text" name="fname" id="fname">
-                </div>
-                <div>
-                    <label for="lname">LAST NAME</label>
-                    <input type="text" name="lname" id="lname">
-                </div>
-                <div>
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div>
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" name="phone" id="phone">
-                </div>
-                <div>
-                    <label for="pwd">PASSWORD</label>
-                    <input type="password" name="pwd" id="pwd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
-                </div>
-                <div>
-                    <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm-pwd" id="confirm-pwd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
-                </div>
-            </fieldset>
-        </form>
-        <button type="submit" form="sign-up">Create Account</button>
-        <span>Already have an account? <a href="">Log in</a></span>
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up
+        <i>now</i> to get started.
+      </p>
+      <p>You <i>know</i> you want to.</p>
+      <form action="" method="post" id="sign-up">
+        <fieldset>
+          <legend>Let's do this!</legend>
+          <div>
+            <label for="fname">FIRST NAME</label>
+            <input type="text" name="fname" id="fname" />
+          </div>
+          <div>
+            <label for="lname">LAST NAME</label>
+            <input type="text" name="lname" id="lname" />
+          </div>
+          <div>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" name="phone" id="phone" />
+          </div>
+          <div>
+            <label for="pwd">PASSWORD</label>
+            <input
+              type="password"
+              name="pwd"
+              id="pwd"
+              pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+            />
+          </div>
+          <div>
+            <label for="confirm-pwd">CONFIRM PASSWORD</label>
+            <input
+              type="password"
+              name="confirm-pwd"
+              id="confirm-pwd"
+              pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+            />
+          </div>
+        </fieldset>
+      </form>
+      <button type="submit" form="sign-up">Create Account</button>
+      <span>Already have an account? <a href="">Log in</a></span>
     </div>
-</body>
+  </body>
 </html>
